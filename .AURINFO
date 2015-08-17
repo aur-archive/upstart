@@ -1,0 +1,20 @@
+pkgbase = upstart
+	pkgdesc = Upstart is an event-based replacement for the /sbin/init daemon
+	pkgver = 1.13.2
+	pkgrel = 1
+	url = http://upstart.ubuntu.com/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python
+	makedepends = pkgconfig
+	depends = libnih
+	depends = json-c
+	depends = dbus
+	conflicts = sysvinit
+	options = emptydirs
+	source = http://upstart.ubuntu.com/download/1.13.2/upstart-1.13.2.tar.gz
+	md5sums = 36ed88b7f3c11af8c6348fdf1f82e818
+
+pkgname = upstart
+
